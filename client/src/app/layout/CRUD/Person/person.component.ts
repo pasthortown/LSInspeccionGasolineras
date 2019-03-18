@@ -7,7 +7,6 @@ import { Person } from './../../../models/Person';
 import { GenderService } from './../../../services/CRUD/gender.service';
 import { Gender } from './../../../models/Gender';
 
-
 @Component({
    selector: 'app-person',
    templateUrl: './person.component.html',

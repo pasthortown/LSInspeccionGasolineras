@@ -52,8 +52,8 @@ const routes: Routes = [
             loadChildren: './pagina-prueba/pagina-prueba.module#PaginaPruebaModule'
          },
          {
-            path: 'register-persona',
-            loadChildren: './register-persona/register-persona.module#RegisterPersonaModule'
+            path: 'register-client',
+            loadChildren: './register-client/register-client.module#RegisterClientModule'
          },
          {
             path: 'not-found',
