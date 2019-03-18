@@ -150,7 +150,7 @@
                   <select class="form-control" id="gender_id" name="gender_id" [(ngModel)]="personSelected.gender_id">
                      <option value="0" selected>Seleccione...</option>
                      <option *ngFor="let gender of genders" value={{gender.id}}>
-                        {{gender.id}}
+                        {{gender.description}}
                      </option>
                   </select>
                </div>

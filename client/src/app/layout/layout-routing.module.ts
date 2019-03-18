@@ -48,6 +48,14 @@ const routes: Routes = [
             loadChildren: './blank-page/blank-page.module#BlankPageModule'
          },
          {
+            path: 'pagina-prueba',
+            loadChildren: './pagina-prueba/pagina-prueba.module#PaginaPruebaModule'
+         },
+         {
+            path: 'register-persona',
+            loadChildren: './register-persona/register-persona.module#RegisterPersonaModule'
+         },
+         {
             path: 'not-found',
             loadChildren: './not-found/not-found.module#NotFoundModule'
          },
